@@ -1,0 +1,187 @@
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.login-title, .login-heading, .no-account h2, .no-account h3 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  font-size: 3.5rem;
+  color: #52BDD2;
+}
+
+.login-main, .no-account {
+  padding: 20px 100px;
+  width: 25%;
+  height: 400px;
+  background-color: #1F4B54; 
+  box-shadow: 4.0px 8.0px 8.0px hsla(0, 1%, 54%, 0.38);
+}
+
+.no-account {
+  background-color:#E0F3F7;
+}
+
+.no-account h2 {
+  padding-top: 10px;
+  font-size: 2.5rem;
+}
+
+.no-account h3 {
+  font-size: 1.5rem;
+  color: #1F4B54;
+}
+
+.login-heading {
+  font-size: 3rem;
+  color: white;
+  background-color: #1F4B54;
+}
+
+.login-input {
+  width: 90%;
+  height: 13%;
+  border: none;
+  background-color: #1F4B54;
+  border-bottom: 2px black solid;
+  color: white;
+}
+
+.login-submit {
+  width: 90%;
+  height: 12%;
+  border: none;
+  border-radius: 20px;
+  background-color: #4CA8BB; 
+}
+
+.no-account-sign {
+  font-size: 1.2rem;
+  background-color: #1F4B54;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px 110px;
+}
+
+.no-account-sign:hover {
+  background-color:white;
+  color: black;
+  cursor: pointer;
+}
+
+.login-submit:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+input::placeholder {
+  color: white;
+}
+
+.dashboard-heading {
+  display: flex;
+  gap: 32%;
+  background-color: #0A272D;
+  color: white;
+  border-radius: 10px;
+  
+}
+
+.dashboard-heading h1, .add-expense-title, .add-income-title, .pie-chart-title, .spendings-title, .expenses-title, .income-title {
+  font-size: 1.3rem;
+  font-family: sans-serif;
+}
+
+.dashboard-heading img {
+  width: 50px;
+  height: 50px;
+}
+
+.section-one, .section-two {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.pie-chart, .add-expense, .add-income, .spendings, .expenses, .income {
+  background-color: #0A272D;
+  border-radius: 20px;
+  padding: 15px;
+  width: 30%;
+  height: 280px;
+}
+.add-expense-title, .add-income-title, .pie-chart-title, .spendings-title, .expenses-title, .income-title {
+  color: #4CA8BB;
+}
+
+.expense-input, .income-input {
+  width: 70%;
+  height: 8%;
+  background-color: #0A272D;
+  border: none;
+  border-bottom: 2px #4CA8BB solid;
+  color: white;
+}
+.submit-expense, .submit-income {
+  width: 70%;
+  height: 10%;
+  background-color: #4CA8BB;
+  border: none;
+  border-radius: 20px;
+}
+
+.submit-expense:hover, .submit-income:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.expense {
+  background-color: #4CA8BB;
+  border-radius: 5px;
+  height: 30px;
+  width: 90%;
+   
+}
+
+.expense span {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+.account-button {
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+}
+
+.account-button:hover {
+  background-color: #0A272D;
+  color: white;
+  cursor: pointer;
+}
+
+.accounts {
+  display: flex;
+}
+
+.spendings section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spendings h3 {
+  color: #4CA8BB;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+
+
+
